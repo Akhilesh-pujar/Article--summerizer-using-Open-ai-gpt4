@@ -1,22 +1,24 @@
 import Hero from "./components/Hero"
 import Demo from "./components/Demo"
+import Footer from "./components/Footer";
 
 
 
-const  App=()=> {
+const App = () => {
   return (
     <main>
 
-   <div className='main'>
+      <div className='main'>
         <div className='gradient' />
       </div>
 
       <div className='app'>
-        <Hero/>
-        <Demo/>
+        <Hero />
+        <Demo />
+        <Footer />
       </div>
-       
-        
+
+
 
     </main>
   );
